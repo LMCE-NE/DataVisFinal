@@ -447,7 +447,7 @@ def bot_response(
     top_p,
     max_new_tokens,
     request: gr.Request,
-    apply_rate_limit=True,
+    apply_rate_limit=False,
     use_recommended_config=False,
 ):
     ip = get_ip(request)
